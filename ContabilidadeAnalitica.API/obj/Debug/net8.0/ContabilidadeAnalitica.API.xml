@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ContabilidadeAnalitica.API</name>
+    </assembly>
+    <members>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.DemonstrativosController.Gerar(ContabilidadeAnalitica.Application.DTOs.ConsultaDemonstrativoDto,System.Threading.CancellationToken)">
+            <summary>
+            Gera um demonstrativo financeiro (Balanço ou Balancete) para uma empresa.
+            Aceita anos dinâmicos informados pelo consumidor.
+            </summary>
+            <remarks>
+            Exemplo de requisição:
+            
+                POST /api/demonstrativos
+                {
+                    "empresaId": "b1000000-0000-0000-0000-000000000001",
+                    "tipo": 1,
+                    "anos": [2024, 2025, 2026],
+                    "templateId": null
+                }
+            
+            Tipos: 1 = Balanço, 2 = Balancete, 3 = DRE, 4 = Fluxo de Caixa
+            </remarks>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.DemonstrativosController.Balanco(System.Guid,System.String,System.Nullable{System.Guid},System.Threading.CancellationToken)">
+            <summary>
+            Atalho GET para consulta rápida de Balanço.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.DemonstrativosController.Balancete(System.Guid,System.String,System.Nullable{System.Guid},System.Threading.CancellationToken)">
+            <summary>
+            Atalho GET para consulta rápida de Balancete.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.EmpresasController.Listar(System.Threading.CancellationToken)">
+            <summary>
+            Lista todas as empresas ativas.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.EmpresasController.ObterPorId(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Obtém uma empresa por ID.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.EmpresasController.Criar(ContabilidadeAnalitica.Application.DTOs.CriarEmpresaDto,System.Threading.CancellationToken)">
+            <summary>
+            Cria uma nova empresa.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.EmpresasController.Atualizar(System.Guid,ContabilidadeAnalitica.Application.DTOs.AtualizarEmpresaDto,System.Threading.CancellationToken)">
+            <summary>
+            Atualiza uma empresa existente.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.EmpresasController.Remover(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Remove (desativa) uma empresa.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.ImportacoesController.ListarPorEmpresa(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Lista importações de uma empresa.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.ImportacoesController.ObterPorId(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Obtém uma importação por ID.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.ImportacoesController.Criar(ContabilidadeAnalitica.Application.DTOs.CriarImportacaoDto,System.Threading.CancellationToken)">
+            <summary>
+            Cria e processa uma importação de dados contábeis.
+            Simula dados vindos de sistema externo via JSON.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.ListarPorEmpresa(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Lista planos de contas de uma empresa.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.ObterVigente(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Obtém o plano de contas vigente de uma empresa com todas as contas.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.ObterPorId(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Obtém um plano de contas por ID com todas as contas.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.Criar(ContabilidadeAnalitica.Application.DTOs.CriarPlanoContasDto,System.Threading.CancellationToken)">
+            <summary>
+            Cria um novo plano de contas (versiona automaticamente).
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.ListarContas(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Lista contas de um plano.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.ObterConta(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Obtém uma conta contábil por ID.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.CriarConta(ContabilidadeAnalitica.Application.DTOs.CriarContaContabilDto,System.Threading.CancellationToken)">
+            <summary>
+            Cria uma nova conta contábil.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.AtualizarConta(System.Guid,ContabilidadeAnalitica.Application.DTOs.AtualizarContaContabilDto,System.Threading.CancellationToken)">
+            <summary>
+            Atualiza uma conta contábil.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.PlanoContasController.RemoverConta(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Remove uma conta contábil.
+            </summary>
+        </member>
+        <member name="T:ContabilidadeAnalitica.API.Controllers.ResultadoExtensions">
+            <summary>
+            Extensões para converter resultados OneOf em respostas HTTP padronizadas.
+            </summary>
+        </member>
+        <member name="T:ContabilidadeAnalitica.API.Controllers.ApiResponse`1">
+            <summary>
+            Envelope de resposta padronizado para sucesso.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.ApiResponse`1.#ctor(`0,System.Boolean)">
+            <summary>
+            Envelope de resposta padronizado para sucesso.
+            </summary>
+        </member>
+        <member name="T:ContabilidadeAnalitica.API.Controllers.ApiErro">
+            <summary>
+            Envelope de resposta padronizado para erros.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.ApiErro.#ctor(System.String,System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            Envelope de resposta padronizado para erros.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.TemplatesController.ListarPorTipo(ContabilidadeAnalitica.Domain.Enums.TipoDemonstrativo,System.Threading.CancellationToken)">
+            <summary>
+            Lista templates por tipo de demonstrativo.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.TemplatesController.ObterPorId(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Obtém um template por ID.
+            </summary>
+        </member>
+        <member name="M:ContabilidadeAnalitica.API.Controllers.TemplatesController.Criar(ContabilidadeAnalitica.Application.DTOs.CriarTemplateDemonstrativoDto,System.Threading.CancellationToken)">
+            <summary>
+            Cria um novo template de demonstrativo.
+            </summary>
+        </member>
+    </members>
+</doc>

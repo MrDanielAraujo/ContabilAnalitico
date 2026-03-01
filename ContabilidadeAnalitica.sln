@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContabilidadeAnalitica.Domain", "ContabilidadeAnalitica.Domain\ContabilidadeAnalitica.Domain.csproj", "{0C6107EF-C15E-4D44-BABE-31E52E827ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContabilidadeAnalitica.Application", "ContabilidadeAnalitica.Application\ContabilidadeAnalitica.Application.csproj", "{5A15506C-BD44-4DBC-8054-819373B0A350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContabilidadeAnalitica.Infrastructure", "ContabilidadeAnalitica.Infrastructure\ContabilidadeAnalitica.Infrastructure.csproj", "{C647F93D-2037-46C6-ABC4-E1DD73848E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContabilidadeAnalitica.CalculationEngine", "ContabilidadeAnalitica.CalculationEngine\ContabilidadeAnalitica.CalculationEngine.csproj", "{EAF08C8D-BA93-48B9-B23E-2A6A4C341F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContabilidadeAnalitica.API", "ContabilidadeAnalitica.API\ContabilidadeAnalitica.API.csproj", "{E6474134-1271-46F9-82EC-CF738CCAA44F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6107EF-C15E-4D44-BABE-31E52E827ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6107EF-C15E-4D44-BABE-31E52E827ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6107EF-C15E-4D44-BABE-31E52E827ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6107EF-C15E-4D44-BABE-31E52E827ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A15506C-BD44-4DBC-8054-819373B0A350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A15506C-BD44-4DBC-8054-819373B0A350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A15506C-BD44-4DBC-8054-819373B0A350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A15506C-BD44-4DBC-8054-819373B0A350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C647F93D-2037-46C6-ABC4-E1DD73848E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C647F93D-2037-46C6-ABC4-E1DD73848E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C647F93D-2037-46C6-ABC4-E1DD73848E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C647F93D-2037-46C6-ABC4-E1DD73848E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF08C8D-BA93-48B9-B23E-2A6A4C341F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF08C8D-BA93-48B9-B23E-2A6A4C341F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF08C8D-BA93-48B9-B23E-2A6A4C341F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF08C8D-BA93-48B9-B23E-2A6A4C341F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6474134-1271-46F9-82EC-CF738CCAA44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6474134-1271-46F9-82EC-CF738CCAA44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6474134-1271-46F9-82EC-CF738CCAA44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6474134-1271-46F9-82EC-CF738CCAA44F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

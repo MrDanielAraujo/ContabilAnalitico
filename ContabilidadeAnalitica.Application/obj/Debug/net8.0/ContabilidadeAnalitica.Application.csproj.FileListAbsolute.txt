@@ -1,0 +1,17 @@
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.Application.deps.json
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.Application.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.Application.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.Domain.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.Domain.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/bin/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.csproj.AssemblyReference.cache
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.AssemblyInfoInputs.cache
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.AssemblyInfo.cs
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.csproj.CoreCompileInputs.cache
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/Contabil.9E93BD7F.Up2Date
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/refint/ContabilidadeAnalitica.Application.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ContabilidadeAnalitica.Application.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.Application/obj/Debug/net8.0/ref/ContabilidadeAnalitica.Application.dll

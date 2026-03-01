@@ -1,0 +1,15 @@
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/bin/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.deps.json
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/bin/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/bin/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/bin/Debug/net8.0/ContabilidadeAnalitica.Domain.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/bin/Debug/net8.0/ContabilidadeAnalitica.Domain.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.csproj.AssemblyReference.cache
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.AssemblyInfoInputs.cache
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.AssemblyInfo.cs
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.csproj.CoreCompileInputs.cache
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/Contabil.FFB1AC65.Up2Date
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/refint/ContabilidadeAnalitica.CalculationEngine.dll
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ContabilidadeAnalitica.CalculationEngine.pdb
+/Users/danielaraujogomes/Downloads/ContabilidadeAnalitica 2/ContabilidadeAnalitica.CalculationEngine/obj/Debug/net8.0/ref/ContabilidadeAnalitica.CalculationEngine.dll
